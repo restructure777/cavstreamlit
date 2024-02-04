@@ -94,7 +94,7 @@ if selected_companies:
         vehicle_counts = company_data['車種等'].value_counts()
         plt.figure(figsize=(6, 6))
         plt.pie(vehicle_counts, labels=vehicle_counts.index, autopct='%1.1f%%', startangle=140)
-        plt.title(f'{company} の車種等内訳')
+        plt.title(f'{company} ')
         st.pyplot(plt)
 
     # 選択した事業者ごとに「latitude」「longitude」の内容を元に地図上へプロット
