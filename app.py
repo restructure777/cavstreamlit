@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # CSVファイルのパス
-file_path = '/data/cav_table3.csv'
+file_path = 'data/cav_table3.csv'
 
 #---------全体の表の表示-----------
 # Streamlitアプリのタイトル
